@@ -1,8 +1,28 @@
 aid: clearcover
 name: Clearcover
-description: Clearcover is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clearcover is a digital-first auto insurance company that offers customizable, affordable
+  car insurance backed by AI-assisted claims that can resolve eligible claims in minutes rather
+  than days. Customers buy and manage policies through a mobile app, file claims by photographing
+  damage, and track claim status in real time, with coverage spanning liability, comprehensive
+  and collision, medical payments, uninsured/underinsured motorist protection, roadside assistance,
+  and alternate transportation. Clearcover operates across multiple US states through several
+  underwriting entities, distributes through both direct and independent-agent channels, and runs
+  a developer portal for partner and embedded insurance integrations. It was surfaced in the API
+  Evangelist network as a portfolio company of 500 Global and enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/clearcover/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://clearcover.com/assets/images/meta-card-clearcover.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Insurance
+- Auto Insurance
+- InsurTech
+- Financial Services
+- Claims
+- Partner APIs
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://clearcover.com
+- type: DeveloperPortal
+  url: https://developer.clearcover.com/
+- type: Documentation
+  url: https://developer.clearcover.com/docs/category/clearcover-apis
+- type: Blog
+  url: https://blog.clearcover.com/
+- type: Support
+  url: https://support.clearcover.com/hc/en-us
+- type: GitHubOrganization
+  url: https://github.com/Clearcover
+- type: TermsOfService
+  url: https://clearcover.com/terms/
+- type: PrivacyPolicy
+  url: https://clearcover.com/privacy/
+- type: DomainSecurity
+  url: security/clearcover-domain-security.yml
+- type: LLMsTxt
+  url: llms/clearcover-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
