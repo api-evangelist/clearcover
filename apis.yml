@@ -11,6 +11,17 @@ description: >-
   a developer portal for partner and embedded insurance integrations. It was surfaced in the API
   Evangelist network as a portfolio company of 500 Global and enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/clearcover/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
